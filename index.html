@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Education Resource Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Special Ed Resource Center</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Our Special Education Resource Center</h2>
+            <p>We're here to support you on your learning journey!</p>
+            <div class="quick-links">
+                <h3>Quick Links:</h3>
+                <ul>
+                    <li>Math Help</li>
+                    <li>Reading Assistance</li>
+                    <li>Study Skills</li>
+                    <li>Emotional Support</li>
+                </ul>
+            </div>
+            <button onclick="scrollToResources()">Explore Resources</button>
+        </section>
+
+        <section id="resources">
+            <h2>Learning Resources</h2>
+            <div class="resource-cards">
+                <div class="card">
+                    <h3>Math Tutorials</h3>
+                    <p>Step-by-step guides for various math topics</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Reading Comprehension</h3>
+                    <p>Strategies to improve reading skills</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Study Tips</h3>
+                    <p>Effective ways to prepare for tests and assignments</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="card">
+                    <h3>Stress Management</h3>
+                    <p>Techniques to handle academic stress</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>We're here to help! Send us a message and we'll get back to you soon.</p>
+            <form id="contact-form">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com">
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required placeholder="Your message here..."></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Special Education Resource Center</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
